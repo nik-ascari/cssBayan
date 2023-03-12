@@ -1,0 +1,13 @@
+html { font-size:62.5%; }
+body {display: flex;justify-content: center;}
+
+.meme-block input  {display:none;}
+.meme-block__content {
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.3s;
+}
+
+.meme-block input:checked ~ .meme-block__content {max-height:100vh;}
+
+.wrapper {max-width:65rem};
