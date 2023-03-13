@@ -26,16 +26,16 @@ body {display: flex;justify-content: center;}
 .main-title {font-size:3rem;}
 
 @media (max-width: 820px) {
-    .meme-block__title {font-weight:bold; font-size:2rem; }
-    .main-title {font-weight:bold;font-size:2.4rem;}
+    .meme-block__title {font-weight:bold; font-size:2.3rem; }
+    .main-title {font-weight:bold;font-size:2.5rem;}
     .meme-block__label:hover  .meme-block__img { width:85%;}
     .meme-block__input:checked ~ .meme-block__label .meme-block__img { width:85%;}
     .meme-block__label {padding:0 1rem;}
   }
 
 @media (max-width: 568px) {
-    .meme-block__title {font-weight:bold; font-size:2.3rem; }
-    .main-title {font-weight:bold;font-size:2.7rem;}
+    .meme-block__title {font-weight:bold; font-size:2rem; }
+    .main-title {font-weight:bold;font-size:2.2rem;}
     .meme-block__label:hover  .meme-block__img { width:95%;}
     .meme-block__input:checked ~ .meme-block__label .meme-block__img { width:95%;}
     .meme-block__label {padding:0 1rem;}
