@@ -9,13 +9,11 @@ body {display: flex;justify-content: center;}
 
 .meme-block__span {flex: 1 100%; text-align: center;} 
 .meme-block__label {display: flex; justify-content: space-between; padding:1rem 0; font-size:2rem; cursor: pointer;flex-wrap: wrap;align-items: center;}
-.meme-block__label:hover  .meme-block__img {display: inline-block;opacity:1;transition: opacity 200ms, display 200ms;}
+.meme-block__label:hover  .meme-block__img {height:43.2rem; transition: all 0.5s;}
 
 
-.meme-block__img {  transition: opacity 200ms, display 200ms;
-    display: none;
-    opacity: 0; }
-.meme-block__input:checked ~ .meme-block__label .meme-block__img {display:inline-block; opacity:1;transition: opacity 200ms, display 200ms;}
+.meme-block__img {  height:0rem; transition: all 0.5s;}
+.meme-block__input:checked ~ .meme-block__label .meme-block__img {height:43.2rem;}
 .meme-block__input:checked ~ .meme-block__label  > .fa-circle-plus {display: none;}
 .meme-block__input:not(:checked) ~ .meme-block__label  > .fa-circle-xmark {display: none;} 
 
